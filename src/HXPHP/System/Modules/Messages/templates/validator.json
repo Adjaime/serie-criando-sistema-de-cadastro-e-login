@@ -1,0 +1,20 @@
+{
+    "description" : "Template de mensagens para o serviço de validação",
+    "messages" : {
+        "campo-obrigatorio" : {
+            "message" : "O campo <strong>%s</strong> é obrigatório e não foi preenchido."
+        },
+        "cpf-ou-cpnj-invalido" : {
+            "message" : "O campo <strong>%s</strong> não é um cpf/cnpj válido."
+        },
+        "username-invalido" : {
+            "message" : "O campo <strong>%s</strong> não é um username válido."
+        },
+        "valor-nao-numerico" : {
+            "message" : "O campo <strong>%s</strong> não é um valor numérico."
+        },
+        "email-invalido" : {
+            "message" : "O campo <strong>%s</strong> não é um e-mail válido."
+        }
+    }
+}
