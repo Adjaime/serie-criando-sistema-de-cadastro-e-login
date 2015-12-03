@@ -15,6 +15,12 @@ class View
 	 * @var object
 	 */
 	private $configs;
+	
+	/**
+	 * Injeção do Http Request
+	 * @var object
+	 */
+	private $request;
 
 	/**
 	 * Parâmetros de configuração da VIEW
@@ -38,7 +44,8 @@ class View
 		 * @var object
 		 */
 		$this->configs = $configs;
-
+		$this->request  = new Http\Request($configs->baseURI);
+		
 		/**
 		 * Tratamento das variáveis
 		 */
